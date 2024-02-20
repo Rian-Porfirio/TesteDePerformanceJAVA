@@ -1,4 +1,4 @@
-#Lavanderia
+# Lavanderia
 
 O código presente neste repositório é uma abstração de um sistema de uma lavanderia.
 As classes presentes neste código são: Funcionário, Gerente, ClienteComum, ClienteAssinatura, LavaRoupas, SistemaClientes.
