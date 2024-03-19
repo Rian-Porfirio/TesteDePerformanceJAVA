@@ -1,0 +1,5 @@
+br\edu\infnet\rianporfirio\rianporfirioDelivery\domain\FuncionarioTest.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\domain\RestauranteTest.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\domain\EntregadorTest.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\domain\EnderecoTest.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\service\RestauranteServiceTest.class

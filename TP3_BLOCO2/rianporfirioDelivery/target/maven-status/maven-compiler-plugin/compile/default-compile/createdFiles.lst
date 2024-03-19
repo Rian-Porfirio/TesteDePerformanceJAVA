@@ -1,0 +1,17 @@
+br\edu\infnet\rianporfirio\rianporfirioDelivery\model\domain\Entregador.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\LocalidadeLoader.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\model\domain\Municipio.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\model\domain\Estado.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\client\ILocalidadeClient.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\model\domain\Restaurante.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\RianporfirioDeliveryApplication.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\model\domain\Funcionario.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\model\service\LocalidadeService.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\model\service\RestauranteService.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\client\IEnderecoClient.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\model\domain\Endereco.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\controller\LocalidadeController.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\RestauranteLoader.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\EnderecoLoader.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\controller\RestauranteController.class
+br\edu\infnet\rianporfirio\rianporfirioDelivery\model\domain\Distrito.class
