@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: br.edu.infnet.rianporfirio.domain.EnderecoTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.347 s <<< FAILURE! - in br.edu.infnet.rianporfirio.domain.EnderecoTests
+br.edu.infnet.rianporfirio.domain.EnderecoTests  Time elapsed: 0.345 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+
