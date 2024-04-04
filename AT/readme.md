@@ -1,5 +1,4 @@
-# B - Explicando a motivação para o uso de Spark
-Java no desenvolvimento de Restful APIs
+B - Explicando a motivação para o uso de SparkJava no desenvolvimento de Restful APIs
 
 # Compreensão do Spark Java:
 O Spark Java traz uma facilidade imensa na criação de rotas
