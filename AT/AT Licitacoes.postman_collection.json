@@ -1,0 +1,620 @@
+{
+	"info": {
+		"_postman_id": "4bd619ff-9d52-4302-b3b0-e22bc2a3a589",
+		"name": "AT Licitacoes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33700414"
+	},
+	"item": [
+		{
+			"name": "Empresas",
+			"item": [
+				{
+					"name": "Buscar Empresa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/1/buscarEmpresa/Astra/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"1",
+								"buscarEmpresa",
+								"Astra",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Empresas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/1/empresas/listar/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"1",
+								"empresas",
+								"listar",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Incluir Empresa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/1/empresa/incluir/Astra/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"1",
+								"empresa",
+								"incluir",
+								"Astra",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Empresa",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/:id/nomeEmpresa/excluir/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								":id",
+								"nomeEmpresa",
+								"excluir",
+								""
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Itens",
+			"item": [
+				{
+					"name": "Listar Itens",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/1/item/listar/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"1",
+								"item",
+								"listar",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Item",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/:id/buscarItem/:nomeItem/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								":id",
+								"buscarItem",
+								":nomeItem",
+								""
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								},
+								{
+									"key": "nomeItem",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Incluir Item",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/1/item/incluir/nomeItem",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"1",
+								"item",
+								"incluir",
+								"nomeItem"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Item",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/:id/item/excluir/:nomeItem/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								":id",
+								"item",
+								"excluir",
+								":nomeItem",
+								""
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								},
+								{
+									"key": "nomeItem",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Licitacao",
+			"item": [
+				{
+					"name": "Listar Licitacoes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/listar/sistema/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"listar",
+								"sistema",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Licitacao",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/2/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Incluir Licitacao Nome",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/incluir/LicitacaoTeste/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"incluir",
+								"LicitacaoTeste",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Incluir Licitacao Json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Licitacao10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/licitacao/incluir/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"incluir",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Licitacao",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/2/excluir/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"2",
+								"excluir",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Prefeitura",
+			"item": [
+				{
+					"name": "Obter Prefeitura",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/1/prefeitura/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"1",
+								"prefeitura",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Incluir Prefeitura",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/1/prefeitura/incluir/Londrina/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"1",
+								"prefeitura",
+								"incluir",
+								"Londrina",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Prefeitura",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/:id/prefeitura/excluir/:nomePrefeitura/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								":id",
+								"prefeitura",
+								"excluir",
+								":nomePrefeitura",
+								""
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								},
+								{
+									"key": "nomePrefeitura",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ChefeLicitacao",
+			"item": [
+				{
+					"name": "Obter Chefe de Licitacao",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/1/chefeLicitacao/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"1",
+								"chefeLicitacao",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Incluir Chefe de Licitacao",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/1/chefeLicitacao/incluir/Pablo/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								"1",
+								"chefeLicitacao",
+								"incluir",
+								"Pablo",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Chefe de Licitacao",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/:id/chefeLicitacao/excluir/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								":id",
+								"chefeLicitacao",
+								"excluir",
+								""
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Data",
+			"item": [
+				{
+					"name": "Obter data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/:id/data/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								":id",
+								"data",
+								""
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Incluir Data",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/:id/data/incluir/:dataC/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								":id",
+								"data",
+								"incluir",
+								":dataC",
+								""
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								},
+								{
+									"key": "dataC",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Data",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/licitacao/:id/data/excluir/:dataC/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"licitacao",
+								":id",
+								"data",
+								"excluir",
+								":dataC",
+								""
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								},
+								{
+									"key": "dataC",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
